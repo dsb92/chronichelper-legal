@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dsb92.github.io/chronichelper-legal/sitemap.xml
