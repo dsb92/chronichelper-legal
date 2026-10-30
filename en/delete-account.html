@@ -36,13 +36,13 @@
 <p>The app signs you out and returns to the start screen. You can create a new, empty profile if you wish.</p>
 
 <h2 id="email">Option 2: Send an e-mail</h2>
-<p>If you no longer have access to the app (for example because you changed phone), you can ask us to delete the profile:</p>
+<p>If you no longer have access to the app (for example because you changed phone), you can ask us to delete the profile. Because the account is anonymous we have no e-mail address, name or password to check against, and the app does not currently show an ID you could refer to. We can therefore only delete a profile if we can see with reasonable certainty that it is yours:</p>
 <ol>
 <li>Send an e-mail to <a href="mailto:developer@dab-it.dk?subject=Delete%20my%20ChronicHelper%20profile">developer@dab-it.dk</a> with the subject "Delete my ChronicHelper profile".</li>
-<li>Include your <strong>installation ID</strong>. You find it in the app under <strong>Mere → Profil</strong>. If you noted it earlier, you can use it even if you no longer have the app.</li>
-<li>We confirm and delete the profile within 30 days – normally much faster.</li>
+<li>State your <strong>nickname</strong> and user group, roughly when you created the profile, and the wording and time of at least one of your posts or comments that only you can know. If you turned notifications on and noted an installation ID, you can include that too.</li>
+<li>We assess whether the details point unambiguously to one profile and reply within 30 days – normally much faster. If we cannot identify the profile with reasonable certainty we do not delete it, to protect other users from someone deleting their profile by impersonating the owner. We explain this in our reply.</li>
 </ol>
-<div class="notice"><strong>Note:</strong> The account is anonymous. Without the installation ID we cannot find your profile from a name, e-mail address or nickname, because we do not hold that information. A profile lost without an installation ID cannot be misused by others, since it can only be accessed from the original session, and it is covered by our regular clean-up.</div>
+<div class="notice"><strong>Note:</strong> A profile you have lost access to cannot be misused by others, because it can only be used from the original session. Profiles are not deleted automatically for inactivity; our automatic clean-up only deletes anonymous accounts that never created a profile (after 7 days) and profiles whose deletion has already begun. You can also ask us to remove individual posts or comments by stating their wording and time; we treat that as a report.</div>
 
 <h2 id="what">What is deleted?</h2>
 <p>The following is removed when you delete your profile:</p>
@@ -60,14 +60,15 @@
 <ul>
 <li><strong>Immediately:</strong> The profile is disabled and your contributions and registrations are removed. Nobody can use your profile – not even with an old access token.</li>
 <li><strong>Within minutes:</strong> An automatic background process that runs every minute deletes the account permanently.</li>
-<li><strong>Backups:</strong> Encrypted backups are rotated continuously, so deleted data also disappears from them within the retention period described in the <a href="privacy.html#retention">privacy policy</a>.</li>
+<li><strong>Backups:</strong> We take encrypted exports of the database ourselves. They are replaced continuously and kept for at most five weeks, so deleted data can exist in the exports for up to five weeks, see the <a href="privacy.html#retention">privacy policy</a>.</li>
 </ul>
 
 <h2 id="kept">What do we keep?</h2>
 <ul>
-<li><strong>Technical fingerprints (digests)</strong> of your previous requests to the server. They are used solely to reject an old, delayed request that would otherwise recreate deleted content. They contain neither your content nor your nickname and cannot be used to identify you.</li>
+<li><strong>The receipt for the deletion itself</strong> (a technical fingerprint without your content or nickname) is kept for up to 1 year so that an old, delayed request cannot recreate anything. Your other technical receipts are deleted immediately.</li>
 <li><strong>Advertising data</strong> held by Google is processed by Google under Google's own rules. You can reset or delete your advertising ID in your phone's settings (iOS: Privacy &amp; Security → Tracking; Android: Google → Ads).</li>
-<li>We do not keep copies of your forum posts, and deleted content is no longer shown to other users.</li>
+<li>We do not keep ordinary copies of your forum posts, and deleted content is no longer shown to other users. <strong>Exception:</strong> If your content or profile was reported or hidden when you deleted, we keep a copy of the reported content, your nickname and the reasons for the reports for 90 days so that we can preserve evidence and report to the authorities (see the <a href="privacy.html#retention">privacy policy</a>). The copy cannot be seen by other users.</li>
+<li>A <strong>moderation log</strong> of the actions our moderator has taken (what, when and on which content) is kept for 1 year.</li>
 </ul>
 
 <h2 id="notifications">Just want to stop notifications?</h2>

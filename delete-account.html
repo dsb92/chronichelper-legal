@@ -36,13 +36,13 @@
 <p>Appen logger dig ud og vender tilbage til startskærmen. Du kan oprette en ny, tom profil, hvis du ønsker det.</p>
 
 <h2 id="email">Mulighed 2: Send en e-mail</h2>
-<p>Hvis du ikke længere har adgang til appen (fx fordi du har skiftet telefon), kan du bede os om at slette profilen:</p>
+<p>Hvis du ikke længere har adgang til appen (fx fordi du har skiftet telefon), kan du bede os om at slette profilen. Fordi kontoen er anonym, har vi ingen e-mail, intet navn og ingen adgangskode at kontrollere mod, og appen viser i dag ikke noget id, du kan henvise til. Vi kan derfor kun slette en profil, hvis vi med rimelig sikkerhed kan se, at den er din:</p>
 <ol>
 <li>Send en e-mail til <a href="mailto:developer@dab-it.dk?subject=Slet%20min%20ChronicHelper-profil">developer@dab-it.dk</a> med emnet "Slet min ChronicHelper-profil".</li>
-<li>Oplys dit <strong>installations-id</strong>. Du finder det i appen under <strong>Mere → Profil</strong>. Har du noteret det tidligere, kan du bruge det, selv om du ikke har appen længere.</li>
-<li>Vi bekræfter og sletter profilen inden for 30 dage – normalt meget hurtigere.</li>
+<li>Skriv dit <strong>kaldenavn</strong> og din brugergruppe, omtrent hvornår du oprettede profilen, og ordlyd og tidspunkt fra mindst ét af dine opslag eller kommentarer, som kun du kan kende. Har du slået notifikationer til og noteret et installations-id, kan du også oplyse det.</li>
+<li>Vi vurderer, om oplysningerne entydigt peger på én profil, og svarer inden for 30 dage – normalt meget hurtigere. Kan vi ikke identificere profilen med rimelig sikkerhed, sletter vi den ikke, for at beskytte andre brugere mod, at nogen sletter deres profil ved at udgive sig for ejeren. Vi forklarer det i vores svar.</li>
 </ol>
-<div class="notice"><strong>Bemærk:</strong> Kontoen er anonym. Uden installations-id kan vi ikke finde din profil ud fra navn, e-mail eller kaldenavn, fordi vi ikke har de oplysninger. En profil, der er gået tabt uden installations-id, kan ikke misbruges af andre, da den kun kan tilgås fra den oprindelige session, og den bliver omfattet af vores almindelige oprydning.</div>
+<div class="notice"><strong>Bemærk:</strong> En profil, du har mistet adgangen til, kan ikke misbruges af andre, fordi den kun kan bruges fra den oprindelige session. Profiler slettes ikke automatisk på grund af inaktivitet; vores automatiske oprydning sletter kun anonyme konti, der aldrig fik en profil (efter 7 dage), og profiler, hvor sletningen allerede er påbegyndt. Du kan også bede os fjerne enkelte opslag eller kommentarer ved at oplyse deres ordlyd og tidspunkt; vi behandler det som en anmeldelse.</div>
 
 <h2 id="hvad">Hvad bliver slettet?</h2>
 <p>Følgende fjernes, når du sletter din profil:</p>
@@ -60,14 +60,15 @@
 <ul>
 <li><strong>Med det samme:</strong> Profilen deaktiveres, og dine bidrag og registreringer fjernes. Ingen kan bruge din profil – heller ikke med et gammelt adgangstoken.</li>
 <li><strong>Inden for få minutter:</strong> En automatisk baggrundsproces, der kører hvert minut, sletter kontoen endeligt.</li>
-<li><strong>Sikkerhedskopier:</strong> Krypterede sikkerhedskopier roteres løbende, så slettede data også forsvinder herfra inden for den opbevaringsperiode, der er beskrevet i <a href="privacy.html#opbevaring">privatlivspolitikken</a>.</li>
+<li><strong>Sikkerhedskopier:</strong> Vi tager selv krypterede eksporter af databasen. De udskiftes løbende og opbevares højst fem uger, så slettede data kan findes i eksporterne i op til fem uger, jf. <a href="privacy.html#opbevaring">privatlivspolitikken</a>.</li>
 </ul>
 
 <h2 id="beholdes">Hvad beholder vi?</h2>
 <ul>
-<li><strong>Tekniske fingeraftryk (digests)</strong> af dine tidligere forsendelser til serveren. De bruges udelukkende til at afvise, at en gammel, forsinket forsendelse genskaber slettet indhold. De indeholder hverken dit indhold eller dit kaldenavn og kan ikke bruges til at identificere dig.</li>
+<li><strong>Kvitteringen for selve sletningen</strong> (et teknisk fingeraftryk uden dit indhold eller kaldenavn) beholdes i op til 1 år, så en gammel, forsinket forsendelse ikke kan genskabe noget. Dine øvrige tekniske kvitteringer slettes med det samme.</li>
 <li><strong>Annoncedata</strong> hos Google behandles af Google efter Googles egne regler. Du kan nulstille eller slette dit annonce-id i telefonens indstillinger (iOS: Anonymitet og sikkerhed → Sporing; Android: Google → Annoncer).</li>
-<li>Vi beholder ikke kopier af dine forumopslag, og slettet indhold vises ikke længere for andre brugere.</li>
+<li>Vi beholder ikke almindelige kopier af dine forumopslag, og slettet indhold vises ikke længere for andre brugere. <strong>Undtagelse:</strong> Var dit indhold eller din profil anmeldt eller skjult, da du slettede, gemmer vi en kopi af det anmeldte indhold, dit kaldenavn og anmeldelsernes årsager i 90 dage, så vi kan sikre beviser og indberette til myndighederne (se <a href="privacy.html#opbevaring">privatlivspolitikken</a>). Kopien kan ikke ses af andre brugere.</li>
+<li>En <strong>moderationslog</strong> over de handlinger, vores moderator har udført (hvad, hvornår og på hvilket indhold), gemmes i 1 år.</li>
 </ul>
 
 <h2 id="notifikationer">Vil du bare stoppe notifikationer?</h2>
